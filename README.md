@@ -7,25 +7,20 @@ To design a web application for a standard calculator.
 ## DESIGN STEPS:
 
 ### Step 1:
-
+Create a new Django project using  "django-admin startproject",get into the project terminal  and use "python3 manage.py startapp" command.
 
 ### Step 2:
-
+Define  urls.py and views.py for the website .Allow host access and add the app name under installed 
 
 ### Step 3:
-
+Create a templates folder under the app folder followed by a folder under templates with the app name followed by html file named calculator.html
 
 ### Step 4:
-
+Write HTML and CSS code in the file save it and run the app using python manage.py makemigrations and python manage.py migrate commands .Run the Server using "python3 manage.py runserver 0:80" command.
 
 ### Step 5:
-
+ Validate the HTML and CSS code.
 ### Step 6:
-
-Validate the HTML and CSS code.
-
-### Step 6:
-
 Publish the website in the given URL.
 
 ## PROGRAM :
