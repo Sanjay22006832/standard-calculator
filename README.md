@@ -24,6 +24,7 @@ Write HTML and CSS code in the file save it and run the app using python manage.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -33,7 +34,7 @@ Publish the website in the given URL.
 <style>
 
     .calculator {
-    padding: 20px;
+    padding: 10px;
     border-radius: 1em;
     height: 480px;
     width: 500px;
@@ -43,10 +44,10 @@ Publish the website in the given URL.
     }
     
     .display-box {
-    font-family: 'Orbitron', TimesNewRoman;
-    background-color: #D1D0CE;
-    border: white 0.5px;
-    color: white;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
     border-radius: 5px;
     width: 100%;
     height: 65%;
@@ -58,12 +59,12 @@ Publish the website in the given URL.
     
     input[type=button] {
     font-family: 'Orbitron', sans-serif;
-    background-color: 0FFFF;
-    color: black;
-    border: green px;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
     width: 100%;
-    border-radius: 10px;
-    height: 120%;
+    border-radius: 5px;
+    height: 70%;
     outline: none;
     }
     
@@ -135,6 +136,8 @@ Publish the website in the given URL.
 </body>
 
 </html>
+```
+
 
 ## OUTPUT:
 ![Screenshot_20230120_022546](https://user-images.githubusercontent.com/119830477/213655249-7a4f37a6-76c2-4f9f-8bc1-e3bde896c25f.png)
